@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: aqua;
+}
+#imagem {
+    background-image: url('imagens/espaco.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    height: 100vh;
+}
+#astro{
+    background-image: url('imagens/astronauta.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+    height: 400px;
+    width: 400px;
+    
+    left: 50%;
+    top: 50%;
+}
